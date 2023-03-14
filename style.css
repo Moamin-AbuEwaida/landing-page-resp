@@ -517,12 +517,16 @@ footer {
   color: #458ff6;
 }
 
-.nav-link-scroll {
+.nav-title-scroll {
+  color: #fff;
+}
+
+.nav-menu__link-scroll {
   color: #fff;
   opacity: 1;
 }
 
-.nav-link-scroll:hover {
+.nav-menu__link-scroll:hover {
   color: #fff;
   font-weight: bold;
   opacity: 1;
