@@ -3,7 +3,7 @@ const nav = document.getElementById('nav');
 const navLogo = document.getElementsByClassName('nav-logo');
 const navTitle = document.getElementsByClassName('nav-title');
 const navLink = document.querySelectorAll('.nav-menu__link');
-const navIcon = document.getElementsByName('nav-icon');
+const navIcon = document.getElementsByClassName('nav-icon');
 
 window.onscroll = ()=>{
     if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
